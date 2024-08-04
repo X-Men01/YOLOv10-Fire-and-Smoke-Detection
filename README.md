@@ -30,4 +30,24 @@ Distribution of Labels:
 
 <img width="458" alt="Screenshot 2024-07-29 at 2 50 03 PM" src="https://github.com/user-attachments/assets/f0bbc491-6e33-4388-bfb9-712d1bc6f498">
 
+<h1 align="center"><span>Training and Validation Metrics</span></h1> 
+
+#### Precision, Recall, and mAP50
+To further evaluate the model's performance, we measure precision, recall, and mean Average Precision at 50% IoU (mAP50). These metrics help assess the accuracy and reliability of the model in detecting and classifying fire and smoke in images.
+
+- **Precision**: The ratio of true positive detections to the total number of positive detections (both true and false). It indicates how many of the predicted fires or smoke instances are correct.
+- **Recall**: The ratio of true positive detections to the total number of actual positive instances. It shows how well the model captures all the instances of fire and smoke.
+- **mAP50**: The mean Average Precision at 50% Intersection over Union (IoU) is a comprehensive metric that combines precision and recall, providing a single score to evaluate the model's overall performance.
+![results](https://github.com/user-attachments/assets/2190b80d-e110-49f0-ba58-50a3a9d4d1fa)
+
+
+<h1 align="center"><span>Model</span></h1>
+
+The trained YOLOv10 model for fire and smoke detection is provided in this repository. You can download and use the pre-trained model to perform fire and smoke detection on your own images or videos.
+
+The model weights can be downloaded from the link below: [Download YOLOv10 Model Weights](https://github.com/X-Men01/YOLOv10-Fire-and-Smoke-Detection/tree/main/models)
+
+
+
+
 
